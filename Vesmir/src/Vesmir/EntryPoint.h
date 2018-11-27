@@ -4,6 +4,7 @@
 extern Vesmir::Application* Vesmir::CreateApplication();
 
 int main(int argc, char** argv) {
+
 	auto app = Vesmir::CreateApplication();
 	app->Run();
 	delete app;
